@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto&display=swap');
+
 body
 {
 	
@@ -9,7 +11,33 @@ body
 	grid-gap:5px;
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows:1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin-top: 11vh;
 	
+}
+.topbar
+{
+	height: 10vh;
+	background-color: #f13e5a;
+	color: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.websiteName
+{
+	font-family: Chicle,cursive;
+	font-size: 3em;
+}
+
+.form-control
+{
+	width: 20%;
+}
+
+.menu li
+{
+	display: inline;
 }
 .content
 {	
@@ -83,11 +111,12 @@ a
 {
 	font-size:15;
 	padding-right:8px;
+	display:inline;
 }
 .uploader
 {
 	Position:relative;
-	top:9%;
+	top:12%;
 }
 .shareOrlike
 {
@@ -96,17 +125,17 @@ a
 }
 .icon
 {
-	width:20px;
-	height:20px;
+	width:3em;
+	height:3em;
 	padding-left:19px;
-	 border-radius: 20%;
+	border-radius: 20%;
 	transition: width 2s, height 2s;
 	
 }
 .icon:hover
 {
-	width:40px;
-	height:40px;
+	width:4em;
+	height:4em;
 	background-color:blue;
 }
 .postBtn:hover

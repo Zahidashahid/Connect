@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto&display=swap');
+
+a
+{
+	color: black;
+}
+
+a:hover
+{
+	text-decoration: none;
+}@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto&display=swap');
+
+a
+{
+	color: black;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.page
+{
+	background-color: #e9ebee;
+	font-family: sans-serif;
+	display: grid;
+	grid-gap: 1%;
+	grid-template-columns: 	1fr 1fr 1fr 1fr 1fr 1fr 
+							1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 	1fr auto auto;
+	margin-top: 12vh;
+}
+
+#horizontalList li
+{
+	display: inline;
+	text-decoration: none;
+}
+
+.topbar
+{
+	height: 11vh;
+	background: linear-gradient(to right, #eb3349, #b06ab3, #C5E4F8);
+	color: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	border-bottom: 1px solid #b06ab3;
+	display: flex;
+    justify-content: center;
+}
+
+.websiteName
+{
+	font-family: Chicle,cursive;
+	font-size: 3em;
+	float: left;
+	display: inline;
+	padding-left: 2.5em;
+	margin-right: 0.7em;
+}
+
+.form-control
+{
+	width: 20%;
+}
+
+.menu, .menu2
+{
+	display: inline;
+	padding-left: 0em;
+}
+ 
+.menu2
+{
+	margin-right: 2em; 
+}
+ 
+.menu li
+{
+	display: inline;
+	line-height: 4.5em;
+	font-weight: 550;
+	border-radius: 2em;
+	padding: 1em;
+}
+
+.menu2 li
+{
+	display: inline;
+	line-height: 4.5em;
+	font-weight: 550;
+	padding: 1em;
+	border-radius: 2em;
+}
+
+.searchBar input
+{
+	margin-top: 0.8em;
+	margin-bottom: 1em;
+	display: inline;
+	width: 25em;
+	height: 2.8em;
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+	background: transparent;
+	color: #ffffff;
+	border-top-color: white;
+	border-left-color: white;
+	border-bottom-color: white;
+}
+
+.searchBar input:focus, .searchBar input:hover
+{
+	-webkit-box-shadow: 1px 0px 43px -12px rgba(141,240,220,1);
+	-moz-box-shadow: 1px 0px 43px -12px rgba(141,240,220,1);
+	box-shadow: 1px 0px 43px -12px rgba(141,240,220,1);
+	background: transparent;
+	color: #ffffff;
+	border-top-color: #36B6B6;
+	border-left-color: #36B6B6;
+	border-bottom-color: #36B6B6;
+}
+
+.searchBar input::placeholder
+{
+	color: #ffffff;
+}
+
+.searchBar button
+{
+	margin-top: -0.1em;
+	margin-left: -0.3em;
+	height: 2.8em;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	background-color: #f13e5a;
+	color: #ffffff;
+	font-weight: 500;
+	padding-top: 0.5em;
+	width: 3em;
+	border-color: white;
+	margin-right: 1em; 
+}
+
+.searchBar button:hover
+{
+	color: #ffffff;
+	background-color: #36B6B6;
+	
+	-webkit-box-shadow: 8px 1px 33px -7px rgba(255,255,255,1);
+	-moz-box-shadow: 8px 1px 33px -7px rgba(255,255,255,1);
+	box-shadow: 8px 1px 33px -7px rgba(255,255,255,1);
+}
+
+.menu li:hover, .menu2 li:hover
+{
+	cursor: pointer;
+	background-color: #36B6B6; 
+}
+
+.menu li a:hover, .menu2 li a:hover
+{
+	text-decoration: none;
+}
+
+.leftBar
+{
+	grid-column: 2/5;
+	grid-row: 1/2;
+	height: 90vh;
+	background-color: white;
+}
+
+.content
+{
+	grid-column: 5/10;
+	grid-row: 1/4;
+	height: 100%;
+}
+
+.content .post
+{
+	background-color: white;
+	margin-top: 2vh;
+}
+
+.rightBar
+{
+	grid-column: 10/12;
+	grid-row: 1/2;
+	height: 90vh;
+	background-color: white;
+}
+
+.coverPicture
+{
+	height: 20vh;
+}
+
+.coverPicture img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.profilePicture img
+{
+	border-radius: 5.2em;
+    height: 5em;
+    width: 5em;
+    border: 2px solid #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.profilePicture
+{
+	position: relative;
+	z-index: 1;
+	top: -3em;
+	padding-left: 1.5em;
+}
+
+.usernameDiv
+{
+	text-align: center;
+}
+
+.usernameDiv>.name
+{
+	color: black;
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+.usernameDiv
+{
+	color: #657786;
+	font-size: 0.9em;
+	font-weight: light;
+}
+
+.profileStats ul li
+{
+	display: inline;
+	list-style: none;
+}
+
+.profileStats a
+{
+	text-decoration: none;
+	display: block;
+	padding-right: 10%;
+}
+
+.profileTextPosts
+{
+	float: left;
+}
+
+.profileTextFriends
+{
+	float: left;
+}
+
+.profileTextFollowing
+{
+	float: left;
+}
+
+.profileText
+{
+	color: #657786;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.profileStatsText
+{
+	color: #EA00FF;
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+.selfPostOption
+{
+		background-color: #fff;
+}
+
+.postProfilePicture img
+{
+	border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.postContentWrapper .postUserProfile, .postContentWrapper .postContent,
+.postContentWrapper .postLink, .postBottom
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.postUserName
+{
+	position: relative;
+	top: -30px;
+	left: 8px;
+	font-weight: bold;
+}
+
+.postUploadTime
+{
+	position: relative;
+	top: -10px;
+	left: -28px;
+	font-weight: lighter;
+	font-size: 0.6em;
+	color: #808080;
+}
+.postContent
+{
+	font-size: 0.8em;
+}
+
+.postContent, .postContent p
+{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.postContentWrapper .postImageOrVideo audio
+{
+	margin-left: 8em;
+}
+
+.postContentWrapper .postImageOrVideo img, 
+.postContentWrapper .postImageOrVideo video
+{
+	width: 100%;
+	height: 100%;
+}
+
+.postDetails
+{
+	color: #808080;
+	font-size: 0.8em;
+	border-bottom: 1px solid gray;
+	border-bottom-width: 80%;
+	padding-bottom: 0.8em;
+}
+
+.noOfComments, .noOfShares
+{
+	float: right;
+	padding-right: 0.5em;
+}
+ 
+.postOptions
+{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.postOptions img
+{
+	width: 24px;
+	height: 24px;
+}
+
+.postOptions #pinPost
+{
+	float: right;
+}
+
+
+::-webkit-scrollbar {
+    width: 1.2em;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track 
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #eb3349, #b06ab3, #C5E4F8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+
+.page
+{
+	background-color: #e9ebee;
+	font-family: sans-serif;
+	display: grid;
+	grid-gap: 1%;
+	grid-template-columns: 	1fr 1fr 1fr 1fr 1fr 1fr 
+							1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 	1fr 1fr 1fr auto;
+	margin-top: 12vh;
+}
+
+#horizontalList li
+{
+	display: inline;
+	text-decoration: none;
+}
+
+.topbar
+{
+	height: 11vh;
+	background: linear-gradient(to right, #eb3349, #b06ab3, #C5E4F8);
+	color: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index:2;
+	
+}
+
+.websiteName
+{
+	font-family: Chicle,cursive;
+	font-size: 3em;
+	float: left;
+	display: inline;
+	padding-left: 1em;
+}
+
+.form-control
+{
+	width: 20%;
+}
+
+.menu li
+{
+	display: inline;
+	line-height: 4.5em;
+	margin-left: 3em;
+}
+
+.menu li input
+{
+	margin-bottom: 1em;
+	display: inline;
+	width: 25em;
+	height: 2.8em;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+
+.menu li button
+{
+	margin-top: -0.1em;
+	margin-left: -0.3em;
+	height: 2.75em;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	background-color: #f13e5a;
+	color: #ffffff;
+	font-weight: 500;
+	margin-right: 6em;
+	padding-top: 0.5em;
+}
+
+.menu li button:hover
+{
+	color: #f13e5a;
+	background-color: #E275D1;
+}
+
+.menu li:hover
+{
+	cursor: pointer;
+}
+
+.menu li a:hover
+{
+	text-decoration: none;
+}
+
+.leftBar
+{
+	grid-column: 2/5;
+	grid-row: 1/2;
+	height: 90vh;
+	
+}
+
+.content
+{
+	grid-column: 5/10;
+	grid-row: 1/4;
+	height: 100%;
+}
+
+.content .post
+{
+	background-color: white;
+	margin-top: 2vh;
+}
+
+.rightBar
+{
+	grid-column: 10/12;
+	grid-row: 1/2;
+	height: 90vh;
+	background-color: white;
+}
+
+.coverPicture
+{
+	height: 20vh;
+}
+
+.coverPicture img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.profilePicture img
+{
+	border-radius: 5.2em;
+    height: 5em;
+    width: 5em;
+    border: 2px solid #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.profilePicture
+{
+	position: relative;
+	top: -3em;
+	padding-left: 1.5em;
+}
+
+.usernameDiv
+{
+	text-align: center;
+}
+
+.usernameDiv>.name
+{
+	color: black;
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+.usernameDiv
+{
+	color: #657786;
+	font-size: 0.9em;
+	font-weight: light;
+}
+
+.profileStats ul li
+{
+	display: inline;
+	list-style: none;
+}
+
+.profileStats a
+{
+	text-decoration: none;
+	display: block;
+	padding-right: 10%;
+}
+
+.profileTextPosts
+{
+	float: left;
+}
+
+.profileTextFriends
+{
+	float: left;
+}
+
+.profileTextFollowing
+{
+	float: left;
+}
+
+.profileText
+{
+	color: #657786;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.profileStatsText
+{
+	color: #EA00FF;
+	font-size: 1.3em;
+	font-weight: bolder;
+}
+
+.selfPostOption
+{
+		background-color: #fff;
+}
+
+.postProfilePicture img
+{
+	border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.postContentWrapper .postUserProfile, .postContentWrapper .postContent,
+.postContentWrapper .postLink, .postBottom
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.postUserName
+{
+	position: relative;
+	top: -30px;
+	left: 8px;
+	font-weight: bold;
+}
+
+.postUploadTime
+{
+	position: relative;
+	top: -10px;
+	left: -28px;
+	font-weight: lighter;
+	font-size: 0.6em;
+	color: #808080;
+}
+.postContent
+{
+	font-size: 0.8em;
+}
+
+.postContent, .postContent p
+{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.postContentWrapper .postImageOrVideo img, 
+.postContentWrapper .postImageOrVideo video
+{
+	width: 100%;
+	height: 100%;
+}
+
+.postDetails
+{
+	color: #808080;
+	font-size: 0.8em;
+	border-bottom: 1px solid gray;
+	border-bottom-width: 80%;
+	padding-bottom: 0.8em;
+}
+
+.noOfComments, .noOfShares
+{
+	float: right;
+	padding-right: 0.5em;
+}
+ 
+.postOptions
+{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.postOptions img
+{
+	width: 24px;
+	height: 24px;
+}
+
+.postOptions #pinPost
+{
+	float: right;
+}

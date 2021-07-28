@@ -1,0 +1,317 @@
+.page
+{
+	background-color: #e9ebee;
+	font-family: sans-serif;
+	display: grid;
+	grid-gap: 1%;
+	grid-template-columns: 	1fr 1fr 1fr 1fr 1fr 1fr 
+							1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 	1fr 1fr 1fr 1fr 1fr 1fr 
+							1fr 1fr 1fr 1fr 1fr 1fr;
+	margin-top: 10vh;
+}
+.coverImg-profile
+{
+	grid-column:2/12;
+	grid-row:1/2;
+}
+
+.coverPicture 
+{
+	grid-column:2/12;
+	grid-row:1/1;
+}
+.coverPicture img
+{
+	width: 62.2em;
+    height: 16em;
+}
+.profilePicture
+{
+	position:relative;
+	top:-2.5em;
+	left:-1em;
+	
+}.profilePicture img
+{
+	
+	width: 7em;
+    height: 7em;
+	border: 2px solid gray;
+}
+.usernameDiv 
+{
+	position:absolute;
+	top:19em;
+	left:20em;
+	
+	
+}
+.usernameDiv .name
+{
+	font-family:  sans-serif;
+	font-size:1.3em;
+	color:white;
+}
+.bottomBar
+{
+	background-color: white;
+	position:relative;
+	top:6em;
+	left:em;
+	width: 62.2em;
+	
+	
+}
+.bottomBar ul
+{
+	margin:0px;
+	padding-bottom:0.8em;
+	padding-left:8em;
+	padding-top:0.8em;
+	
+	
+	
+}
+.bottomBar ul li
+{
+	text-decoration:none;
+	display:inline;
+	padding-right:4em;
+	list-style: none;
+	
+}
+
+ a
+{
+	text-decoration:none;
+	list-style: none;
+	
+}
+
+
+.suggestion
+{
+	grid-column: 2/10;
+	grid-row: 2/3;
+	background-color: white;
+	
+}
+.suggestion ul
+{
+	text-decoration:none;
+	display:inline;
+	padding-right:4em;
+	list-style: none;
+	
+}
+.suggestion li
+{
+	margin:1em;
+}
+.friendSuggested
+{
+	border: 2px solid pink;
+	display:inline-block;
+	
+	-webkit-box-shadow: 0px 11px 14px -5px rgba(168, 188, 189, 0.97);
+	
+}
+.friendSuggested .addBtn
+{
+	margin-left:2.5em;
+	margin-right:2.5em;
+	margin-bottom:0.5em;
+	
+}
+.friendSuggested p
+{
+	margin:0.5em;
+}
+.friendSuggested img
+{
+	margin:0.2em;
+	width: 10em;
+	height: 8em;
+}
+.crossIcon
+{
+	width: 2em;
+	height: 2em;
+}
+.leftBar
+{
+	grid-column: 2/4;
+	grid-row: 3/10;
+	height: 90vh;
+	
+}
+
+
+
+.profilecontent
+{
+	grid-column: 4/10;
+	grid-row: 3/10;
+	height: 100%
+}
+
+.profilecontent .post
+{
+	background-color: white;
+	margin-top: 2vh;
+	
+}
+
+
+textarea
+{
+	margin:1em;
+	border: none;
+}
+
+
+.selfPostOption
+{
+	background-color: #fff;
+	grid-column:5/10;
+	grid-row:3/4;
+}
+
+.postProfilePicture img
+{
+	border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#horizontalList 
+{
+	margin:0px;
+	padding:3px;
+}
+#horizontalList li
+{
+	display: inline;
+	text-decoration: none;
+}
+#horizontalList a
+{
+	margin:2em;
+
+}#horizontalList img
+{
+	position:relative;
+	top:0.18em;
+
+}
+#horizontalList a span
+{
+	margin:0.2em;
+
+
+}
+
+.postBottom
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+ 
+.postOptions
+{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.postOptions img
+{
+	width: 24px;
+	height: 24px;
+}
+
+.postOptions #pinPost
+{
+	float: right;
+}
+.postContent .postImageOrVideo img, 
+.postContent .postImageOrVideo video
+{
+	width: 50hv;
+	height: 15em;
+}
+.postContentWrapper .postUserProfile, .postContentWrapper .postContent,
+.postContentWrapper .postLink, .postBottom
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color:	#fff;
+}
+.postDetails
+{
+	color: #808080;
+	font-size: 0.8em;
+	border-bottom: 1px solid gray;
+	border-bottom-width: 80%;
+	padding-bottom: 0.8em;
+}
+.options
+{
+	background-color:		#F8F8F8;
+}
+.icon
+{
+	width: 23px;
+    height: 23px;
+}
+.photos,
+.friends
+{
+	background-color: white;
+	margin-top: 2vh;
+}
+.friend
+{
+	display:inline-block;
+	
+}
+.friendName
+{	
+	font-size: 1.1em;
+    line-height: 16px;
+	padding-left:0.2em;
+	margin-top:0em;
+	font-family: inherit;
+    color: blue;
+}
+.mutual
+{
+	color: #808080;
+	font-size: 0.8em;
+	padding-left:0.5em;
+	border-bottom-width: 80%;
+	padding-bottom: 0.8em;
+}
+.photos> img,
+.friend> img
+{
+	margin:0.4em;
+	width:6em;
+	height:6em;
+}
+.floatRight
+{
+	padding:0.5em;
+	padding-bottom:0em;
+	padding-top:1em;
+	float:right;
+	font-size: 12px;
+	font-family: inherit;
+    color: inherit;
+}

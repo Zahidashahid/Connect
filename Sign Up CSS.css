@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto&display=swap');
+
+html
+{
+	-webkit-tap-highlight-color: transparent	
+}
+
+body
+{
+	background: linear-gradient(to right, #eb3349, #b06ab3, #C5E4F8);
+	font-weight: 475;
+	font-family: sans-serif;
+	display: grid;
+	grid-gap: 1%;
+	grid-template-columns: 	1fr 1fr 1fr 1fr 1fr 1fr 
+							1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 	1fr auto auto;
+}
+
+.websiteName
+{
+	padding-left: 1.45em;
+}
+
+.tagline
+{
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.5em;
+	margin-left: 2em;
+}
+
+.text-chicle {
+    font-family: Chicle,cursive;
+	font-weight: 300;
+	font-size: 80px;
+}
+
+#logInButton
+{
+	background-color: #f13e5a;
+	color: #ffffff;
+	border-radius: 2em;
+	font-weight: 500;
+}
+
+#logInButton:hover
+{
+	color: #f13e5a;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+.websiteInfo
+{
+	grid-column: 5/9;
+	grid-row: 1/2;
+	width: 100%;
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+}
+
+.signUpDiv
+{
+	grid-column: 4/10;
+	grid-row: 2/4;
+}
+
+form
+{
+	padding-top: 3em;
+	padding-left: 5em;
+	border: 2px solid #ffffff;
+	border-radius: 1.7em;
+	
+	
+	-webkit-box-shadow: 33px 36px 15px 10px rgba(0,0,0,0.41);
+	-moz-box-shadow: 33px 36px 15px 10px rgba(0,0,0,0.41);
+	box-shadow: 33px 36px 15px 10px rgba(0,0,0,0.41);
+}
+
+form #userEmailOrPhoneNumber, form #userPassword, form #userName, form #userConfirmPassword
+{
+	width: 85%;
+	padding: 0.3em 0.5em;
+	text-overflow: ellipsis;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #999;
+}
+
+form #userEmailOrPhoneNumber, form #userPassword, form #userName
+{
+	margin-bottom: 1.5em;
+}
+
+.Mid
+{
+	grid-column: 9/12;
+	grid-row: 1/2;
+	width: 100%;
+	margin-left: 3em;
+	margin-top: 3.5em;
+	font-weight: 475;
+}
+
+.Mid2
+{
+	padding-left: 10em;
+}
+
+#signUpButton:hover
+{
+	background-color: #ffffff;
+	color: #f13e5a;
+	cursor: pointer;
+}
+
+#signUpButton
+{
+	color: #ffffff;
+	background-color: #f13e5a;
+	border-radius: 2em;
+	width: 9em;
+	font-weight: 500;
+}
+
+#forgotPassword
+{
+	margin-left: 4em;
+	color: #ffffff;
+}
+
+#forgotPassword:hover
+{
+	color: black;
+}

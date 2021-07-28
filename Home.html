@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Connect</title>
+	<link href=".\Images\logo.png" rel="shortcut icon" type="image/png" > </link>
+	
+	<link rel = "stylesheet" href = "..\Bootstrap\css\bootstrap.min.css" type = "text/css" > </link>
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type = "text/css" > </link>
+	<link href = ".\Home CSS.css" type = "text/css" rel = "stylesheet" > </link>
+	<script src = "..\Bootstrap\js\bootstrap.min.js" type = "text/javascrpt" > </script>
+	<script src = "..\Bootstrap\jquery.min.js" type = "text/javascrpt" > </script>
+	<script src = "..\Bootstrap\jpopper.min.js" type = "text/javascrpt" > </script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> </link>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> </link>
+	<link href="https://fonts.googleapis.com/css?family=Chicle&display=swap" rel="stylesheet">
+	
+</head>
+<body class = "page" >
+	
+	<div class = "topbar" > 
+		<span class = "websiteName" >Connect</span>
+		<span class = "searchBar">
+			<input type = "search"  id = "searchInput" class = "form-control" placeholder="Search..." />
+			<button class = "btn" ><span class = "fas fa-search"></span></button> 
+		</span>
+		<nav>
+			<ul class = "menu" >
+
+				<li>Profile</li>
+				<li>Notify</li>
+				<li>Setting</li>
+			</ul>
+			<ul class = "menu2" >
+				<li>Ho</li>
+				<li>Pro</li>
+				<li>Not</li>
+			</ul>
+		</nav>
+	</div>
+	
+	<div class = "leftBar" > 
+		<div class = "profileDetailsDiv" >
+			<div class = "coverPicture" >
+				<img src = ".\Images\cover.jpg" alt = "CoverPicture" />
+			</div>
+			
+			<div class = "profileOtherDetails" >
+				<div class = "profilePicture" >
+					<img src = ".\Images\profile.jpg" alt = "ProfilePicture" />
+				</div>
+				
+				<div class = "usernameDiv" > 
+					<span class = "name" >SARA </span>  <br/>
+					<span class = "username" >@Xiumin </span>
+				</div>
+				
+				<div class = "profileStats" >
+					<ul> 
+						<li> 
+							<a class = "profileTextPosts" href = "" >
+								<span class = "profileText" >Posts </span> <br/>
+								<span class = "profileStatsText" > 36 </span>
+							</a>
+						</li>
+						<li>
+							<a class = "profileTextFriends" href = "" >					
+								<span class = "profileText" >Friends </span> <br/>
+								<span class = "profileStatsText" > 150 </span>	
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class = "content" > 
+		<div class = "selfPostOption" > 
+			<div>
+				<ul id = "horizontalList">
+					<li><a href = "#">Create Post </a></li>
+					<li><a href = "#">|Photo/video </a></li>
+					<li><a href = "#">|Live video</a></li>
+				</ul>
+				<span class = "postProfilePicture"> 
+					<img src = ".\Images\profile.jpg" alt = "ProfilePic" />
+				</span>
+				<input type = "text" placeholder = "What's on your mind?" />
+				<hr/>
+				<div>
+					<ul id  = "horizontalList">
+						<li><a href = "#">Picture/video</a></li>
+						<li><a href = "#">Tag friend</a></li>
+						<li><a href = "#">feeling</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class = "post" >
+			<div class = "postContentWrapper" > 
+				<div class = "postUserProfile" > 
+					<div class = "postProfilePicture" >
+						<img src = ".\Images\userProfile.jpg" alt = "ProfilePicture" />
+						<span class = "postUserName" > Zahi </span>
+						<span class = "postUploadTime" > 2 HOURS AGO </span>
+					</div>
+				</div>
+				<div class = "postContent" > 
+					<p>
+						So True...
+					</p>
+				</div>
+				<div class = "postImageOrVideo" > 
+					<img src = ".\Images\post.jpg" alt = " loading image...." />
+				</div>
+			</div>
+			<div class = "postBottom" > 
+				<div class = "postDetails" > 
+					<span class = "noOfLikes" >110 likes</span>
+					<span class = "noOfComments" > 32 comments</span>
+					<span class = "noOfShares" > 5 shares</span>
+				</div>
+				<div class = "postOptions" > 
+					<img src = ".\Images\likeIcon.png" alt = "Like" />
+					<img src = ".\Images\commentIcon.png" alt = "Comment" />
+					<img src = ".\Images\shareIcon.png" alt = "Share" />
+					<img id = "pinPost" src = ".\Images\pinPostIcon.png" alt = "Pin Post" />
+				</div>
+			</div>
+		</div>
+		
+		<div class = "post" >
+			<div class = "postContentWrapper" > 
+				<div class = "postUserProfile" > 
+					<div class = "postProfilePicture" >
+						<img src = ".\Images\userProfile.jpg" alt = "ProfilePicture" />
+						<span class = "postUserName" > Zahi </span>
+						<span class = "postUploadTime" > 6 HOURS AGO </span>
+					</div>
+				</div>
+				<div class = "postContent" > 
+					<p>
+						So much workload <br/>
+						I can't do this anymore.....
+					</p>
+				</div>
+				<div class = "postImageOrVideo" > 
+					
+				</div>
+				<div class = "postLink" > 
+				</div>
+			</div>
+			<div class = "postBottom" > 
+				<div class = "postDetails" > 
+					<span class = "noOfLikes" >11 likes</span>
+					<span class = "noOfComments" > 3 comments</span>
+				</div>
+				<div class = "postOptions" > 
+					<img src = ".\Images\likeIcon.png" alt = "Like" />
+					<img src = ".\Images\commentIcon.png" alt = "Comment" />
+					<img src = ".\Images\shareIcon.png" alt = "Share" />
+					<img id = "pinPost" src = ".\Images\pinPostIcon.png" alt = "Pin Post" />
+				</div>
+			</div>
+		</div>
+		
+		<div class = "post" >
+			<div class = "postContentWrapper" > 
+				<div class = "postUserProfile" > 
+					<div class = "postProfilePicture" >
+						<img src = ".\Images\userProfile.jpg" alt = "ProfilePicture" />
+						<span class = "postUserName" > Zahi </span>
+						<span class = "postUploadTime" > 2 DAYS AGO </span>
+					</div>
+				</div>
+				<div class = "postContent" > 
+					<p>
+						Cute hahaha
+					</p>
+				</div>
+				<div class = "postImageOrVideo" > 
+					<video src = ".\Videos\video.mp4" controls>
+						<source  />
+						Your browser doesn't support the video tag.
+					</video>
+				</div>
+				<div class = "postLink" > 
+				</div>
+			</div>
+			<div class = "postBottom" > 
+				<div class = "postDetails" > 
+					<span class = "noOfLikes" >56 likes</span>
+					<span class = "noOfComments" > 25 comments</span>
+					<span class = "noOfShares" > 12 shares</span>
+				</div>
+				<div class = "postOptions" > 
+					<img src = ".\Images\likeIcon.png" alt = "Like" />
+					<img src = ".\Images\commentIcon.png" alt = "Comment" />
+					<img src = ".\Images\shareIcon.png" alt = "Share" />
+					<img id = "pinPost" src = ".\Images\pinPostIcon.png" alt = "Pin Post" />
+				</div>
+			</div>
+		</div>
+		
+		<div class = "post" >
+			<div class = "postContentWrapper" > 
+				<div class = "postUserProfile" > 
+					<div class = "postProfilePicture" >
+						<img src = ".\Images\userProfile.jpg" alt = "ProfilePicture" />
+						<span class = "postUserName" > Zahi </span>
+						<span class = "postUploadTime" > 5 DAYS AGO </span>
+					</div>
+				</div>
+				<div class = "postContent" > 
+					<p>
+						listening to music....
+					</p>
+				</div>
+				<div class = "postImageOrVideo" > 
+					<audio controls> 
+						<source src = ".\Audios\audio.mp3" />
+						Your browser doesn't support audio tag.
+					</audio>
+				</div>
+				<div class = "postLink" > 
+				</div>
+			</div>
+			<div class = "postBottom" > 
+				<div class = "postDetails" > 
+					<span class = "noOfLikes" >8 likes</span>
+					<span class = "noOfShares" > 1 share</span>
+				</div>
+				<div class = "postOptions" > 
+					<img src = ".\Images\likeIcon.png" alt = "Like" />
+					<img src = ".\Images\commentIcon.png" alt = "Comment" />
+					<img src = ".\Images\shareIcon.png" alt = "Share" />
+					<img id = "pinPost" src = ".\Images\pinPostIcon.png" alt = "Pin Post" />
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class = "rightBar" > 
+	</div>
+</body>
+</html>
