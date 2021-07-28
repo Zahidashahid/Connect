@@ -1,0 +1,116 @@
+body
+{
+	
+	background-color: hsla(120, 60%, 70%, 0.3);;
+}
+.page
+{
+	display:grid;
+	grid-gap:5px;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	
+}
+.content
+{	
+	grid-column:1/9;
+	grid-row:1/11;
+}
+.personUploaded
+{
+	grid-column:1/9;
+	grid-row:11/13;
+}
+.commentSession
+{
+	grid-column:9/13;
+	grid-row:1/13;
+}
+.video
+{
+	width:100%;
+	
+	
+}
+.ProfilePic
+{
+	width:40px;
+	height:38px;
+
+}
+img
+{
+	 border-radius: 50%;
+}
+.comments
+{
+	grid-column:9/13;
+	grid-row:1/9;
+	display:inline;
+	float:right;
+	position: absolute;
+	font-size:10;
+	font-family:Sans-serif	;
+}
+.comments li
+{
+	list-style-type:none;
+	display:inline;
+}
+a
+{
+	text-decoration:none;
+	padding:7px;
+}
+.comments a
+{
+	
+	padding-left:5px;
+	font-size:10;
+	
+}
+.Typecomment
+{
+	grid-column:9/13;
+	grid-row:9/13;
+	Position:relative;
+	top: 75%;
+   	left:9%;
+	
+	
+}
+.name
+{
+	font-size:15;
+	padding-right:8px;
+}
+.uploader
+{
+	Position:relative;
+	top:9%;
+}
+.shareOrlike
+{
+	float:right;
+	
+}
+.icon
+{
+	width:20px;
+	height:20px;
+	padding-left:19px;
+	 border-radius: 20%;
+	transition: width 2s, height 2s;
+	
+}
+.icon:hover
+{
+	width:40px;
+	height:40px;
+	background-color:blue;
+}
+.postBtn:hover
+{
+	background-color:yellow;
+	color:blue;
+}

@@ -1,0 +1,44 @@
+.page
+{
+	display: grid;
+	grid-template-columns: 	1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+	grid-gap: 1%;
+	font-family: times-roman;
+}
+.nav
+{
+	grid-column: 1/13;
+	grid-row: 1/2;
+}
+img
+{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+}
+.icon
+{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+}
+
+.content 
+{
+	grid-column: 1/13;
+	grid-row: 2/4;
+	background-color:pink;
+	
+}
+
+
+
+#horizontallist li  {
+		display: inline;
+		text-decoration:none;
+}
+#horizontallist li a {
+		text-decoration:none;
+		padding:5px;
+}
